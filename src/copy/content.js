@@ -71,17 +71,6 @@ export const lineage = {
         ],
         note: 'O ADCC é o mundial mais prestigiado do grappling sem kimono.',
       },
-      {
-        label: 'MMA',
-        intro: 'Enfrentou nomes históricos do esporte:',
-        items: [
-          'Kazushi Sakuraba',
-          'Matt Hughes',
-          'B.J. Penn',
-          'Frank Shamrock',
-          'Pat Miletich',
-        ],
-      },
     ],
   },
   milestones: [
