@@ -37,7 +37,7 @@ export const hero = {
 
 export const videoExplainer = {
   kicker: '2 minutos',
-  headline: 'Você nunca mais vai ver uma oferta de matrícula melhor.',
+  headline: 'O único plano com kimono pronto para vestir na aula inaugural.',
   caption: 'A academia em reforma, o que você recebe como Membro Original, e por que a data limite é 25 de julho.',
   youtubeId: '', // TODO: substituir quando o vídeo estiver no YouTube (unlisted)
   posterCaption: 'Vídeo em breve',
@@ -108,9 +108,9 @@ export const classes = {
 export const offer = {
   kicker: 'Oferta · até 25 de julho',
   headline: 'Torne-se um Membro Original da RGA-BH.',
-  sub: 'Apenas para quem entrar no plano anual até 25 de julho, 23h59. Um grupo permanente com benefícios que não voltam.',
+  sub: 'Todos que se matriculam antes da inauguração são Membros Originais. Mas só quem fecha até 25 de julho recebe o kimono pronto para vestir na aula inaugural.',
   benefits: [
-    'Kimono RGA exclusivo (valor de R$800), seu como Membro Original',
+    'Kimono RGA exclusivo (valor de R$700), pronto para vestir na aula inaugural',
     'Patch oficial de Membro Original, costurado no kimono',
     'Presença garantida no seminário de inauguração com Rayron Gracie (setembro)',
     'Prioridade em eventos, workshops e experiências futuras da academia',
@@ -121,8 +121,8 @@ export const offer = {
       label: 'Plano anual',
       name: 'Plano Adulto',
       price: '12x R$ 329',
-      note: 'Ou à vista com condições especiais no WhatsApp.',
-      ctaLabel: 'Ser Membro Original',
+      note: 'Pagamento em 12x no cartão pelo link oficial.',
+      ctaLabel: 'Seja um Membro Original',
     },
     {
       id: 'kids',
@@ -130,10 +130,10 @@ export const offer = {
       name: 'Plano Kids',
       price: '12x R$ 299',
       note: 'Vagas limitadas por turma.',
-      ctaLabel: 'Ser Membro Original',
+      ctaLabel: 'Seja um Membro Original',
     },
   ],
-  urgencyBody: 'Depois disso, o kimono, o patch e o seminário deixam de fazer parte da oferta.',
+  urgencyBody: 'Depois disso, o kimono ainda vem, mas não a tempo da aula inaugural.',
 };
 
 export const seminar = {
@@ -155,8 +155,8 @@ export const faq = {
   headline: 'Perguntas frequentes.',
   items: [
     {
-      q: 'O que exatamente eu recebo ao me tornar Membro Original?',
-      a: 'O plano anual (12x R$329 adulto ou R$299 kids), um kimono RGA exclusivo avaliado em R$800, um patch de Membro Original costurado no kimono, e presença garantida no seminário com Rayron Gracie em setembro.',
+      q: 'O que exatamente eu recebo ao me tornar Membro Original nesta oferta?',
+      a: 'O plano anual (12x R$329 adulto ou R$299 kids), um kimono RGA exclusivo avaliado em R$700 pronto para vestir na aula inaugural, um patch de Membro Original costurado no kimono, e presença garantida no seminário com Rayron Gracie em setembro.',
     },
     {
       q: 'Quando a academia abre?',
@@ -167,12 +167,12 @@ export const faq = {
       a: 'É um patch bordado oficial que vai costurado no seu kimono RGA. Ele identifica você como parte do grupo dos primeiros alunos da RGA-BH, e não voltará a ser distribuído.',
     },
     {
-      q: 'Se eu comprar depois de 25 de julho, ainda ganho o kimono e o patch?',
-      a: 'Não. Depois de 25 de julho às 23h59 a oferta encerra. Novos alunos que entrarem depois pagam a mensalidade normalmente sem os brindes de Membro Original.',
+      q: 'E se eu me matricular depois de 25 de julho?',
+      a: 'Todos que se matriculam antes da inauguração são Membros Originais. Mas só quem fecha até 25 de julho tem o kimono pronto para a aula inaugural. Nas ofertas seguintes, o kimono chega depois.',
     },
     {
       q: 'Como funciona o pagamento?',
-      a: 'O plano anual é dividido em 12x no cartão pelo link do carrinho oficial. Para condições à vista ou dúvidas de pagamento, fale no WhatsApp +55 31 97177-5617.',
+      a: 'O plano anual é dividido em 12x no cartão pelo link do carrinho oficial. Para dúvidas, fale no WhatsApp +55 31 97177-5617.',
     },
     {
       q: 'Como participo do seminário com o Rayron Gracie?',
@@ -215,8 +215,8 @@ export const faq = {
 
 export const finalCta = {
   headline: 'Antes de 25 de julho.',
-  body: 'Depois disso, o kimono, o patch e o seminário deixam de fazer parte da oferta. Você continua bem-vindo. Mas o grupo dos Membros Originais fecha.',
-  ctaLabel: 'Ser Membro Original',
+  body: 'Ofertas de Membro Original vão continuar até a inauguração. Mas só quem fecha até 25 de julho tem o kimono pronto para vestir na aula inaugural.',
+  ctaLabel: 'Seja um Membro Original',
 };
 
 export const footer = {
