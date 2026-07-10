@@ -11,7 +11,7 @@
 
 export const OFFER_DEADLINE = '2026-07-25T23:59:00-03:00';
 export const CART_URL = 'https://evo-totem.w12app.com.br/evo/9178/site/AAeG4kxWhjYHyxNvFhiKIg%5BEQUAL%5D%5BEQUAL%5D';
-export const WHATSAPP_NUMBER = '553197177561';
+export const WHATSAPP_NUMBER = '5531971775617';
 export const WHATSAPP_MESSAGE = 'Olá, quero saber mais sobre a RGA-BH.';
 export const INSTAGRAM_URL = 'https://www.instagram.com/renzograciebh/';
 export const ADDRESS = 'Rua Paraíba, 889 · Savassi · Belo Horizonte · MG';
