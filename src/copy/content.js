@@ -39,8 +39,8 @@ export const videoExplainer = {
   kicker: '2 minutos',
   headline: 'O único plano com kimono pronto para vestir na aula inaugural.',
   caption: 'A academia em reforma, o que você recebe como Membro Original, e por que a data limite é 25 de julho.',
-  youtubeId: '', // TODO: substituir quando o vídeo estiver no YouTube (unlisted)
-  posterCaption: 'Vídeo em breve',
+  youtubeId: 'ARthr51PjPM',
+  posterCaption: { desktop: 'Clique para o play', mobile: 'Toque para o play' },
 };
 
 export const lineage = {
