@@ -50,6 +50,40 @@ export const lineage = {
     'Em 1996, Renzo Gracie fundou a Renzo Gracie Academy em Nova York. Hoje, a rede é referência mundial em Jiu-Jítsu.',
     'A RGA Belo Horizonte é o novo capítulo dessa história, sob supervisão direta do Renzo.',
   ],
+  credentials: {
+    kicker: 'Títulos do Renzo',
+    headline: 'Uma carreira respeitada dentro e fora do tatame.',
+    groups: [
+      {
+        label: 'Jiu-Jítsu',
+        items: [
+          'Campeão Mundial IBJJF · Faixa Preta 1996',
+          'Campeão Pan-Americano',
+          'Campeão Brasileiro e Sul-Americano',
+          'Múltiplos títulos nacionais e internacionais nos anos 90',
+        ],
+      },
+      {
+        label: 'ADCC · sem kimono',
+        items: [
+          'Vice-campeão ADCC · 1998',
+          'Medalha de bronze ADCC · 2000',
+        ],
+        note: 'O ADCC é o mundial mais prestigiado do grappling sem kimono.',
+      },
+      {
+        label: 'MMA',
+        intro: 'Enfrentou nomes históricos do esporte:',
+        items: [
+          'Kazushi Sakuraba',
+          'Matt Hughes',
+          'B.J. Penn',
+          'Frank Shamrock',
+          'Pat Miletich',
+        ],
+      },
+    ],
+  },
   milestones: [
     { year: '1996', body: 'Renzo Gracie funda a Renzo Gracie Academy em Nova York.' },
     { year: 'Hoje', body: 'Rede mundial de academias oficiais Renzo Gracie.' },
@@ -79,14 +113,13 @@ export const professor = {
   kicker: 'Faixa preta responsável',
   headline: 'Raphael Coelho.',
   bio: [
-    // TODO: preencher com bio real do Raphael Coelho.
-    'Bio em breve. Este espaço vai contar quem é o faixa preta responsável pela RGA Belo Horizonte, sua formação, linhagem e filosofia de ensino.',
+    'Faixa preta em Jiu-Jítsu há mais de 15 anos. Professor de Jiu-Jítsu, Boxe e MMA. Sócio da Renzo Gracie Team Belo Horizonte.',
+    'Metodologia estruturada e exigente, com foco na evolução técnica e na formação de pessoas. Já ministrou aulas em academias, empresas e batalhões das forças de segurança pública.',
   ],
   highlights: [
-    // TODO: 3 highlights curtos (títulos, anos de treino, filiação).
-    'Faixa preta em Jiu-Jítsu',
-    'Formação e títulos [em breve]',
-    'Filosofia de ensino [em breve]',
+    'Faixa preta há 15+ anos',
+    'Professor de Jiu-Jítsu, Boxe e MMA',
+    'Sócio Renzo Gracie Team BH',
   ],
   photoAlt: 'Raphael Coelho, faixa preta responsável pela RGA Belo Horizonte',
 };
