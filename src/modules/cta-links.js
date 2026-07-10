@@ -14,10 +14,12 @@ export function initCartLinks() {
     el.target = '_blank';
     el.rel = 'noopener noreferrer';
     el.addEventListener('click', () => {
+      const ctaName = el.dataset.cta || 'unknown';
       if (typeof window.fbq === 'function') {
-        window.fbq('track', 'Lead', {
-          content_name: el.dataset.cta || 'unknown',
-        });
+        window.fbq('track', 'Lead', { content_name: ctaName });
+      }
+      if (typeof window.gtag === 'function') {
+        window.gtag('event', 'generate_lead', { cta_name: ctaName });
       }
     });
   });

@@ -6,12 +6,7 @@
 import './style.css';
 import './sections.css';
 
-import { inject } from '@vercel/analytics';
 import { initCountdowns } from './modules/countdown.js';
-
-// Vercel Web Analytics: só reporta em produção (Vercel).
-// Em localhost fica em modo debug (aparece no console, não envia).
-inject();
 import { initWhatsAppFloat } from './modules/whatsapp-float.js';
 import { initFAQ } from './modules/faq.js';
 import { initMobileMenu, initStickyNav } from './modules/menu.js';
