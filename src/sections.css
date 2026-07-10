@@ -725,7 +725,8 @@
     grid-template-columns: 1fr;
     gap: 32px;
   }
-  .lineage__image-wrap { aspect-ratio: 16 / 12; }
+  .lineage__image-wrap { aspect-ratio: 954 / 1600; }
+  .lineage__image { object-fit: contain; background: #000; }
   .lineage__timeline {
     grid-template-columns: 1fr;
     gap: 32px;
