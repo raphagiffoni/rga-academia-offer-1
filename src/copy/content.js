@@ -102,11 +102,11 @@ export const professor = {
   kicker: 'Faixa preta responsável',
   headline: 'Raphael Coelho.',
   bio: [
-    'Faixa preta em Jiu-Jítsu há mais de 15 anos. Professor de Jiu-Jítsu, Boxe e MMA. Sócio da Renzo Gracie Team Belo Horizonte.',
+    'Há mais de 15 anos no Jiu-Jítsu. Faixa preta, professor de Jiu-Jítsu, Boxe e MMA. Sócio da Renzo Gracie Team Belo Horizonte.',
     'Metodologia estruturada e exigente, com foco na evolução técnica e na formação de pessoas. Já ministrou aulas em academias, empresas e batalhões das forças de segurança pública.',
   ],
   highlights: [
-    'Faixa preta há 15+ anos',
+    '15+ anos no Jiu-Jítsu',
     'Professor de Jiu-Jítsu, Boxe e MMA',
     'Sócio Renzo Gracie Team BH',
   ],
